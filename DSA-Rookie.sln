@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA-Rookie.App", "DSA-Rookie.App\DSA-Rookie.App.csproj", "{DA1C1E86-284B-47A8-9D9F-2E44DE945AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA-Rookie.BusinessLayer", "DSA-Rookie.BusinessLayer\DSA-Rookie.BusinessLayer.csproj", "{68ABFBA5-79F4-4BFF-A142-785250F52211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1C1E86-284B-47A8-9D9F-2E44DE945AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1C1E86-284B-47A8-9D9F-2E44DE945AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1C1E86-284B-47A8-9D9F-2E44DE945AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1C1E86-284B-47A8-9D9F-2E44DE945AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68ABFBA5-79F4-4BFF-A142-785250F52211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68ABFBA5-79F4-4BFF-A142-785250F52211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68ABFBA5-79F4-4BFF-A142-785250F52211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68ABFBA5-79F4-4BFF-A142-785250F52211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19624490-5F85-4D1C-8F49-9B5916FC1C41}
+	EndGlobalSection
+EndGlobal

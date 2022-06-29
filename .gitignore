@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DSA-Rookie.BusinessLayer/bin/Debug/netcoreapp3.1
+/DSA-Rookie.BusinessLayer/obj
+/DSA-Rookie.App/obj
+/DSA-Rookie.App/bin/Debug/netcoreapp3.1
+/.vs
