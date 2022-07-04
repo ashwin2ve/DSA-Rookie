@@ -6,7 +6,7 @@ namespace DSA_Rookie.BusinessLayer.Array
 {
     public class PositiveElementsAtEvenAndNegativeAtOdd
     {
-        public void SortPositiveNegativeElementsAtEvenOdd(int[] arr)
+        public static void SortPositiveNegativeElementsAtEvenOdd(int[] arr)
         {
             /*Input : arr[] = {1, -3, 5, 6, -3, 6, 7, -4, 9, 10}
               Output : arr[] = {1, -3, 5, -3, 6, 6, 7, -4, 9, 10}

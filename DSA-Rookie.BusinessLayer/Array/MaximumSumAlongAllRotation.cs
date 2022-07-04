@@ -6,7 +6,7 @@ namespace DSA_Rookie.BusinessLayer.Array
 {
     public class MaximumSumAlongAllRotationOfArray
     {
-        public void MaximumSumAlongAllRotation(int [] arr)
+        public static void MaximumSumAlongAllRotation(int [] arr)
         {
             /* Input: arr[] = {8, 3, 1, 2}
                Output: 29

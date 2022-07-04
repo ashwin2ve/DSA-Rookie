@@ -6,7 +6,7 @@ namespace DSA_Rookie.BusinessLayer.Array
 {
     public class SplitArrayAndAddToEnd
     {
-        public void SplitArrayAndAddFirstPartToEnd(int[] arr, int indexToSplit) 
+        public static void SplitArrayAndAddFirstPartToEnd(int[] arr, int indexToSplit) 
         {
             /* Input : arr[] = {12, 10, 5, 6, 52, 36}, k = 2
                Output : arr[] = {5, 6, 52, 36, 12, 10}

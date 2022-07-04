@@ -6,7 +6,7 @@ namespace DSA_Rookie.BusinessLayer.Array
 {
     public class MaximumProductOfFirtAndLastCharacter
     {
-        public void CalculateMaximumProduct(string str)
+        public static void CalculateMaximumProduct(string str)
         {
             /* Input: 12345 -> Output: 5*4=20
             Convert string to int[] - Parse string value to int to convert char to int

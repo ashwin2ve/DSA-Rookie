@@ -6,7 +6,7 @@ namespace DSA_Rookie.BusinessLayer.Array
 {
     public class MeanAndMedianUnsorted
     {
-        public void CalculateMeanAndMedian(int[] arr)
+        public static void CalculateMeanAndMedian(int[] arr)
         {
             /* Input  : a[] = {1, 3, 4, 2, 6, 5, 8, 7}
                Output : Mean = 4.5

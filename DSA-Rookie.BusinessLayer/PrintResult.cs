@@ -21,5 +21,11 @@ namespace DSA_Rookie.BusinessLayer
             Console.Write(num);
             Console.ReadKey();
         }
+
+        public static void PrintStringResult(string str)
+        {
+            Console.Write(str);
+            Console.ReadKey();
+        }
     }
 }
