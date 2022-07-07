@@ -8,7 +8,7 @@ namespace DSA_Rookie.BusinessLayer.Array
     {
         public static void GetNumbersWithMostOccurence(int[] arr)
         {
-            Hashtable numbersOccurence = new Hashtable();
+            //---------------------------Not Completed------------------------
             /*Input: arr[] = {3, 1, 4, 4, 5, 2, 6, 1}, 
               k = 2
               Output: 4 1
@@ -31,6 +31,8 @@ namespace DSA_Rookie.BusinessLayer.Array
               5 is largest among rest.
             URL : https://www.geeksforgeeks.org/find-k-numbers-occurrences-given-array/
              */
+
+            Hashtable numbersOccurence = new Hashtable();
 
             for (int i = 0; i < arr.Length; i++) 
             {

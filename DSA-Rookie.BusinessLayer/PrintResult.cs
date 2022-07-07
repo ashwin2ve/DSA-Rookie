@@ -16,15 +16,9 @@ namespace DSA_Rookie.BusinessLayer
             Console.ReadKey();
         }
 
-        public static void PrintIntResult(int num)
+        public static void PrintResultGeneric<T>(T value)
         {
-            Console.Write(num);
-            Console.ReadKey();
-        }
-
-        public static void PrintStringResult(string str)
-        {
-            Console.Write(str);
+            Console.Write(value);
             Console.ReadKey();
         }
     }

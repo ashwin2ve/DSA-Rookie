@@ -18,12 +18,17 @@ namespace DSA_Rookie.App
 
         private const string StringSample4 = "abcdefgh";
 
-        private const string StringSample5 = "AAAAA";
+        private const string StringSample5 = "GEEKSFORGEEKS";
 
-        private const string StringSample6 = "AAA";
+        private const string StringSample6 = "GRGEIS";
 
         private readonly string[] StringSubArray = {"abcde", "bc"};
 
+        private readonly string StringSample7 = "aaabccddd";
+
+        private readonly string StringSample8 = "2bb#A";
+
+        private readonly string StringSample9 = "oneTwoThree";
         #endregion
 
         #region Integer
@@ -36,7 +41,9 @@ namespace DSA_Rookie.App
 
         private readonly int[] IntArraySample4 = { -1, 3, -5, 6, 3, 6, -7, -4, -9, 10 };
 
-        private readonly int[] IntArraySample5 = { 4, 4, 4, 4, 4 };
+        private readonly int[] IntArraySample5 = { 5, 8, 9 };
+
+        private readonly int[] IntArraySample6 = { 4, 7, 8 };
 
         private const int NumberSample1 = 121251;
 
@@ -87,7 +94,9 @@ namespace DSA_Rookie.App
 
             //MaximumDifferenceInArrayJ_I.FindMaxDifferenceInArray(IntArraySample1);
 
-            //StockBuyAndSellPossibleProfit.CalculatePossibleProfit(IntArraySample1);           
+            //StockBuyAndSellPossibleProfit.CalculatePossibleProfit(IntArraySample1);
+
+            //MergeSortedArray.MergeSortedArrays(IntArraySample5, IntArraySample6);
         }        
 
         public void StringPrograms()
@@ -98,6 +107,20 @@ namespace DSA_Rookie.App
             //ReverseAString.ReverseString(StringSample3);
 
             //FindMatchPatternIndex.FindIndexIfPatterMatch(StringSample5, StringSample6);
+
+            //Palindrome.CheckPalindrome(StringSample6);
+
+            //StringSubsequence.CheckSubStringIsSubSequence(StringSample5, StringSample6);
+
+            //LeftmostRepeatingCharacter.Find(StringSample5);
+
+            //LeftmostNonRepeatingCharacter.Find(StringSample5);
+
+            //ReduceStringTwoCommonLetters.ReduceString(StringSample7);
+
+            //CalculateNumberOfWords.Convert(StringSample9);
+
+            //CheckPasswordIfStrong.Check(StringSample8.Length, StringSample8);                        
         }
     }
 

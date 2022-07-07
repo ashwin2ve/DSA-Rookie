@@ -49,7 +49,7 @@ namespace DSA_Rookie.BusinessLayer.Array
                 }
             }
 
-            PrintResult.PrintIntResult(maxDifference);
+            PrintResult.PrintResultGeneric(maxDifference);
 
             #endregion
         }

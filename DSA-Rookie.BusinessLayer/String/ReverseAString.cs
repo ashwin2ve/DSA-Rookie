@@ -23,7 +23,7 @@ namespace DSA_Rookie.BusinessLayer.String
             ReverseWord(strBuilder, startPos, strBuilder.Length-1);
             ReverseWord(strBuilder, 0, strBuilder.Length-1);
 
-            PrintResult.PrintStringResult(strBuilder.ToString());
+            PrintResult.PrintResultGeneric(strBuilder.ToString());
         }
 
         private static void ReverseWord(StringBuilder str, int start, int end)

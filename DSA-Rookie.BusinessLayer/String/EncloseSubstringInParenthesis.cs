@@ -8,6 +8,7 @@ namespace DSA_Rookie.BusinessLayer.String
     {
         public static void EncloseSubstringIn(string str, string[] subStr)
         {
+            //-------------------------Not Completed---------------------------------
             /*
              Input: S = “abcdefgh”, subs = {“ef”, “bc”, “g”}
              Output: “a(bc)d(efg)h”
@@ -38,7 +39,7 @@ namespace DSA_Rookie.BusinessLayer.String
             }
 
             sb.Replace(")(", "");
-            PrintResult.PrintStringResult(sb.ToString());
+            PrintResult.PrintResultGeneric(sb.ToString());
         }
     }
 }

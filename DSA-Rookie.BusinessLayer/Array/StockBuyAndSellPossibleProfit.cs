@@ -47,7 +47,7 @@ namespace DSA_Rookie.BusinessLayer.Array
                 }
             }
 
-            PrintResult.PrintIntResult(total);
+            PrintResult.PrintResultGeneric(total);
         }
     }
 }

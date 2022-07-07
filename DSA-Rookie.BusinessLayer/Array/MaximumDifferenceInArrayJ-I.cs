@@ -36,7 +36,7 @@ namespace DSA_Rookie.BusinessLayer.Array
                 }
             }
 
-            PrintResult.PrintIntResult(value);
+            PrintResult.PrintResultGeneric(value);
         }
     }
 }

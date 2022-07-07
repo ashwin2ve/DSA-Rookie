@@ -16,7 +16,7 @@ namespace DSA_Rookie.BusinessLayer.String
                 }
             }
             
-            Console.ReadKey();
+            Console.ReadKey();            
         }
-    }
+    }    
 }
