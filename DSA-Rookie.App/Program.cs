@@ -1,5 +1,6 @@
 ﻿using System;
 using DSA_Rookie.BusinessLayer.Array;
+using DSA_Rookie.BusinessLayer.Pattern;
 using DSA_Rookie.BusinessLayer.String;
 
 namespace DSA_Rookie.App
@@ -57,7 +58,7 @@ namespace DSA_Rookie.App
         {
             Program obj = new Program();
             //int num = Console.Read() - '0';
-            int num = 2;
+            int num = 3;
             switch (num)
             {
                 case 1:
@@ -69,6 +70,12 @@ namespace DSA_Rookie.App
                     Console.WriteLine("String Programs");
                     obj.StringPrograms();
                     break;
+
+                case 3:
+                    Console.WriteLine("Pattern Programs");
+                    obj.PatternProgram();
+                    break;
+
                 default:
                     Console.WriteLine("Not Available");
                     break;
@@ -120,7 +127,18 @@ namespace DSA_Rookie.App
 
             //CalculateNumberOfWords.Convert(StringSample9);
 
-            //CheckPasswordIfStrong.Check(StringSample8.Length, StringSample8);                        
+            //CheckPasswordIfStrong.Check(StringSample8.Length, StringSample8);
+
+        }
+
+        public void PatternProgram()
+        {
+            //SolidAndHollowRectangle.Draw(7, 5);
+
+            //StarPattern.Draw(5);
+            
+            //Swastik.Draw(23);
+
         }
     }
 
