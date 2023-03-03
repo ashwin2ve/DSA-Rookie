@@ -13,7 +13,7 @@ namespace DSA_Rookie.BusinessLayer.String
             Input : saveChangesInTheEditor             
             Output : 5
 
-            Explanation: String  contains five words: 
+            Explanation: String  contains five words. New word starts with Capital letter: 
                          
              save
              Changes

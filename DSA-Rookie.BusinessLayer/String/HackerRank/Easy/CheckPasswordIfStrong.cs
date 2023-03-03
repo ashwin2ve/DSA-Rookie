@@ -8,7 +8,7 @@ namespace DSA_Rookie.BusinessLayer.String
     {
         public static void Check(int n, string password)
         {
-            /* URL : https://www.hackerrank.com/challenges/strong-password/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+            /* URL : https://www.hackerrank.com/challenges/strong-password/problem
              */
             string numbers = "0123456789";
             string lower_case = "abcdefghijklmnopqrstuvwxyz";
